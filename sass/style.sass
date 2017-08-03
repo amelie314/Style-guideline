@@ -1,0 +1,168 @@
+$color_green: #79E786
+$color_yellow: #ffcc00
+$color_deeppink: #F3ABA6
+$color_blue: #002b80
+$color_white: #ffffff
+$color_gray:  #999898
+$font_base_size: 10px
+$color_pink: #F7DBDF
+
+
+$max_content_width: 768px
+*
+  // border: solid 1px
+  position: relative
+
+@mixin size($w,$h)
+  width: $w
+  height: $h
+  
+.max_width
+  max-width: $max_content_width
+  margin-left: auto
+  margin-right: auto
+.header
+  background-color: #F7DBDF
+  height: 300px
+  & .icon
+    border-radius: 10px
+    margin-top: 20px
+    width: 1000px
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translateX(-50%) translateY(-45%)
+    
+    
+.content
+  font-family: 'Ubuntu',微軟正黑體
+  padding: 50px
+  
+  & h4
+    margin-top: 10px
+  & .title_hr
+    border: solid 3px $color_deeppink
+    width: 100px
+    
+    
+    
+  & h1
+    font-size: $font_base_size*4
+  & h2
+    font-size: $font_base_size*3
+  & h3
+    font-size: $font_base_size*2
+  & h1.small_english
+    font-size: $font_base_size*2.4
+  & h2.small_english
+    font-size: $font_base_size*1.6
+  & h3.small_english
+    font-size: $font_base_size*1.2
+    
+  & .small_english
+    margin-top: -15px
+  & .botton
+    padding: 5px 25px 
+    display: inline-block
+    margin-right: 10px
+    letter-spacing: 2px
+    font-size: $font_base_size*1.5
+    font-weight: bold
+    background-color: $color_white
+    color: $color_gray
+    border: solid 1px $color_white
+    
+  & .botton_blue
+    background-color: $color_pink
+    color: $color_gray
+    font-weight: 700
+  & .botton_yellow
+    background-color: $color_deeppink
+    color: $color_white
+   
+  & .color_chip
+    display: inline-block
+    margin-right: 25px
+    & .color_block,& .color_tag
+      display: inline-block
+      vertical-align: middle
+    & .color_tag
+      width: 80px
+    & .color_block  
+      +size(35px,35px)
+      border: solid 1px white  
+    & .color_block_yellow
+      background-color: $color_deeppink
+    & .color_block_blue
+      background-color: $color_pink
+    & .color_block_white
+      background-color: $color_white
+    & .color_block_gray
+      background-color: $color_gray
+    & .hua
+      border: $color_deeppink solid 2px 
+  
+.content_gray
+  background-color: $color_gray
+  color: $color_white
+  & .small_english
+    color: $color_deeppink
+  & h1,& h2,& h3
+    font-weight: 500
+  & .botton
+    border-color: $color_white
+    
+.content_blue
+  background-color: $color_pink
+  color: gray
+  & .small_english
+    color: $color_deeppink
+  & h1,& h2,& h3
+    font-weight: 500
+  & .botton
+    border-color: $color_white
+    
+.content_white
+  background-color: $color_white
+  color: $color_deeppink
+  & .small_english
+    color: $color_gray
+  & h1,& h2,& h3
+    font-weight: 500
+  & .botton
+    border-color: $color_deeppink
+
+  
+ 
+    
+    
+    
+    
+    
+  
+    
+    
+      
+      
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+  
+    
+    
+      
+    
+    
+    
+  
+
+
+

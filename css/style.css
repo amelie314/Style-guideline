@@ -1,0 +1,150 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+.max_width {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #F7DBDF;
+  height: 300px;
+}
+.header .icon {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-45%);
+}
+
+.content {
+  font-family: "Ubuntu", 微軟正黑體;
+  padding: 50px;
+}
+.content h4 {
+  margin-top: 10px;
+}
+.content .title_hr {
+  border: solid 3px #F3ABA6;
+  width: 100px;
+}
+.content h1 {
+  font-size: 40px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.content h3 {
+  font-size: 20px;
+}
+.content h1.small_english {
+  font-size: 24px;
+}
+.content h2.small_english {
+  font-size: 16px;
+}
+.content h3.small_english {
+  font-size: 12px;
+}
+.content .small_english {
+  margin-top: -15px;
+}
+.content .botton {
+  padding: 5px 25px;
+  display: inline-block;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #999898;
+  border: solid 1px #ffffff;
+}
+.content .botton_blue {
+  background-color: #F7DBDF;
+  color: #999898;
+  font-weight: 700;
+}
+.content .botton_yellow {
+  background-color: #F3ABA6;
+  color: #ffffff;
+}
+.content .color_chip {
+  display: inline-block;
+  margin-right: 25px;
+}
+.content .color_chip .color_block, .content .color_chip .color_tag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content .color_chip .color_tag {
+  width: 80px;
+}
+.content .color_chip .color_block {
+  width: 35px;
+  height: 35px;
+  border: solid 1px white;
+}
+.content .color_chip .color_block_yellow {
+  background-color: #F3ABA6;
+}
+.content .color_chip .color_block_blue {
+  background-color: #F7DBDF;
+}
+.content .color_chip .color_block_white {
+  background-color: #ffffff;
+}
+.content .color_chip .color_block_gray {
+  background-color: #999898;
+}
+.content .color_chip .hua {
+  border: #F3ABA6 solid 2px;
+}
+
+.content_gray {
+  background-color: #999898;
+  color: #ffffff;
+}
+.content_gray .small_english {
+  color: #F3ABA6;
+}
+.content_gray h1, .content_gray h2, .content_gray h3 {
+  font-weight: 500;
+}
+.content_gray .botton {
+  border-color: #ffffff;
+}
+
+.content_blue {
+  background-color: #F7DBDF;
+  color: gray;
+}
+.content_blue .small_english {
+  color: #F3ABA6;
+}
+.content_blue h1, .content_blue h2, .content_blue h3 {
+  font-weight: 500;
+}
+.content_blue .botton {
+  border-color: #ffffff;
+}
+
+.content_white {
+  background-color: #ffffff;
+  color: #F3ABA6;
+}
+.content_white .small_english {
+  color: #999898;
+}
+.content_white h1, .content_white h2, .content_white h3 {
+  font-weight: 500;
+}
+.content_white .botton {
+  border-color: #F3ABA6;
+}
